@@ -95,14 +95,6 @@ jobs:
         chmod a+x ~/bin/repo
         echo "$HOME/bin" >> $GITHUB_PATH
 
-
-    - name: Cache Kernel Source
-      id: cache-kernel
-      uses: actions/cache@v4
-      with:
-        path: ${{ github.workspace }}/kernel_workspace
-        key: kernel-source-oneplus-sm7675
-
     - name: ⬇️ Download Google Clang Toolchain
       # 步骤1：创建目录
       run: |
