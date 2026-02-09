@@ -107,7 +107,7 @@ jobs:
         
         # 步骤2：克隆/下载 Clang 工具链
         
-        CLANG_REPO="https://android.googlesource.com/platform/preis/clang/host/linux-x86"
+        CLANG_REPO="https://android.googlesource.com/platform/prebuilts/clang/host/linux-x86"
         CLANG_REF="android-gs-akita-6.1-android16-dp"
         
         # 克隆仓库到临时目录
